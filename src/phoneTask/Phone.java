@@ -6,9 +6,7 @@ public class Phone {
     int weight;
 
     public Phone(String model, String number, int weight) {
-        new Phone(model, number);
-        this.model = model;
-        this.number = number;
+        this(model , number);
         this.weight = weight;
     }
 
